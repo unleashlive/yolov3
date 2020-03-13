@@ -21,19 +21,19 @@
 *.json
 
 *.cfg
-!cfg/yolov3*.cfg
+!yolov3/cfg/yolov3*.cfg
 
 storage.googleapis.com
 runs/*
-data/*
-!data/samples/zidane.jpg
-!data/samples/bus.jpg
-!data/coco.names
-!data/coco_paper.names
-!data/coco.data
-!data/coco_*.data
-!data/coco_*.txt
-!data/trainvalno5k.shapes
+yolov3/data/*
+!yolov3/data/samples/zidane.jpg
+!yolov3/data/samples/bus.jpg
+!yolov3/data/coco.names
+!yolov3/data/coco_paper.names
+!yolov3/data/coco.data
+!yolov3/data/coco_*.data
+!yolov3/data/coco_*.txt
+!yolov3/data/trainvalno5k.shapes
 !data/*.sh
 
 pycocotools/*

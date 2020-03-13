@@ -1,9 +1,9 @@
 import argparse
 from sys import platform
 
-from models import *  # set ONNX_EXPORT in models.py
-from utils.datasets import *
-from utils.utils import *
+from yolov3.models import *  # set ONNX_EXPORT in models.py
+from yolov3.utils import *
+from yolov3.utils import *
 
 
 def detect(save_img=False):

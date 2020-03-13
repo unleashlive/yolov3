@@ -768,7 +768,7 @@ def coco_single_class_labels(path='../coco/labels/train2014/', label_class=43):
 def kmean_anchors(path='../coco/train2017.txt', n=9, img_size=(608, 608)):
     # from utils.utils import *; _ = kmean_anchors()
     # Produces a list of target kmeans suitable for use in *.cfg files
-    from utils.datasets import LoadImagesAndLabels
+    from yolov3.utils import LoadImagesAndLabels
     thr = 0.20  # IoU threshold
 
     def print_results(k):

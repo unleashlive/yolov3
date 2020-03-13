@@ -4,10 +4,10 @@ import torch.distributed as dist
 import torch.optim as optim
 import torch.optim.lr_scheduler as lr_scheduler
 
-import test  # import test.py to get mAP after each epoch
-from models import *
-from utils.datasets import *
-from utils.utils import *
+from yolov3 import test
+from yolov3.models import *
+from yolov3.utils import *
+from yolov3.utils import *
 
 mixed_precision = True
 try:  # Mixed precision training https://github.com/NVIDIA/apex
